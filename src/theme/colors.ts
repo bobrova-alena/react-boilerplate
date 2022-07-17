@@ -19,4 +19,8 @@ export default {
   black176: 'rgba(0, 0, 0, 0.176)',
   black50: 'rgba(0, 0, 0, 0.5)',
   altoGray: '#dddddd',
+  accent: '#06d0bf',
+  accent40: 'rgba(6, 208, 191, 0.4)',
+  accent16: 'rgba(6, 208, 191, 0.16)',
+  accent08: 'rgba(6, 208, 191, 0.08)',
 };
