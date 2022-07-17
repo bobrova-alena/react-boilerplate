@@ -1,0 +1,6 @@
+@font-face {
+  font-family: GerberaRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Gerbera-Regular.eot") format('eot'), url("../fonts/Gerbera-Regular.woff2") format('woff2'), url("../fonts/Gerbera-Regular.woff") format('woff'), url("../fonts/Gerbera-Regular.ttf") format('truetype');
+}
