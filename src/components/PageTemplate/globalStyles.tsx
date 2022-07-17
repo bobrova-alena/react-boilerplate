@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import { theme } from 'src/theme';
-import { bodyPaddingCss } from 'src/styledCss/body';
+import { theme } from '../../theme';
+import { bodyPaddingCss } from '../../styledCss/body';
 
 export const GlobalStyle = createGlobalStyle`
   body {
