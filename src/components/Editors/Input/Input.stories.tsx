@@ -2,7 +2,6 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { App } from '../../../app/App/App';
 import { Input, InputProps } from './Input';
-import { trim } from 'lodash';
 
 export default {
   title: 'Editors/Input',
