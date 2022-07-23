@@ -2,9 +2,10 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { App } from '../../../app/App/App';
 import { NumberInput, NumberInputProps } from './NumberInput';
+import { theme } from 'src/theme';
 
 export default {
-  title: 'Editors/NumberInput',
+  title: 'Inputs/NumberInput',
   component: NumberInput,
   decorators: [
     Story => (
@@ -20,13 +21,13 @@ const Template: ComponentStory<typeof NumberInput> = args => <NumberInput {...ar
 
 export const Normal = Template.bind({});
 Normal.args = {
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 1000,
 } as NumberInputProps;
 
 export const NormalDisabled = Template.bind({});
 NormalDisabled.args = {
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 1000,
   disabled: true,
 } as NumberInputProps;
@@ -34,14 +35,14 @@ NormalDisabled.args = {
 export const Compact = Template.bind({});
 Compact.args = {
   compact: true,
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 1000,
 } as NumberInputProps;
 
 export const CompactDisabled = Template.bind({});
 CompactDisabled.args = {
   compact: true,
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 1000,
   disabled: true,
 } as NumberInputProps;
