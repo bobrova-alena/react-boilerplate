@@ -2,9 +2,10 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { App } from '../../../app/App/App';
 import { Input, InputProps } from './Input';
+import { theme } from 'src/theme';
 
 export default {
-  title: 'Editors/Input',
+  title: 'Inputs/Input',
   component: Input,
   decorators: [
     Story => (
@@ -28,7 +29,7 @@ Normal.args = {
 export const NormalDisabled = Template.bind({});
 NormalDisabled.args = {
   mode: 'normal',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
   disabled: true,
 } as InputProps;
@@ -36,14 +37,14 @@ NormalDisabled.args = {
 export const Compact = Template.bind({});
 Compact.args = {
   mode: 'compact',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
 } as InputProps;
 
 export const CompactDisabled = Template.bind({});
 CompactDisabled.args = {
   mode: 'compact',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
   disabled: true,
 } as InputProps;
@@ -51,14 +52,14 @@ CompactDisabled.args = {
 export const Large = Template.bind({});
 Large.args = {
   mode: 'large',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
 } as InputProps;
 
 export const LargeDisabled = Template.bind({});
 LargeDisabled.args = {
   mode: 'large',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
   disabled: true,
 } as InputProps;
@@ -67,14 +68,14 @@ LargeDisabled.args = {
 export const WithoutBorders = Template.bind({});
 WithoutBorders.args = {
   mode: 'without-borders',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
 } as InputProps;
 
 export const WithoutBordersDisabled = Template.bind({});
 WithoutBordersDisabled.args = {
   mode: 'without-borders',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
   disabled: true,
 } as InputProps;

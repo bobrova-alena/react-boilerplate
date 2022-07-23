@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 import React, { ForwardedRef, useMemo } from 'react';
-import {
-  inputCss,
-  InputMode,
-  StyledInputProps,
-} from '../styledCss/input.styles';
+import { inputCss, InputMode, StyledInputProps } from '../styledCss/input.styles';
 import { theme } from '../../../theme';
 
 export type InputProps = StyledInputProps &
@@ -19,15 +15,6 @@ const getPaddings = (props: InputProps) => {
     return props.padding;
   }
   return props.mode === 'compact' ? '0px' : '2px 0px';
-
-  switch (props.mode) {
-    case 'large':
-      return theme.space.base24;
-    case 'compact':
-      return theme.fontSizes.small;
-    default:
-      return theme.fontSizes.base;
-  }
 };
 
 const getFontSize = (props: InputProps) => {
