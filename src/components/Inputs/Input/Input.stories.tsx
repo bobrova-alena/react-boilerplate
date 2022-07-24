@@ -22,7 +22,7 @@ const Template: ComponentStory<typeof Input> = args => <Input {...args}/>;
 export const Normal = Template.bind({});
 Normal.args = {
   mode: 'normal',
-  width: '300px',
+  width: theme.editorSizes.base300,
   value: 'text',
 } as InputProps;
 
