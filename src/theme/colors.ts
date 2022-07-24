@@ -23,6 +23,8 @@ export default {
   accent60: 'rgba(6, 208, 191, 0.6)',
   accent40: 'rgba(6, 208, 191, 0.4)',
   accent16: 'rgba(6, 208, 191, 0.16)',
+  accent12: 'rgba(6, 208, 191, 0.12)',
   accent08: 'rgba(6, 208, 191, 0.08)',
+  accent06: 'rgba(6, 208, 191, 0.06)',
   red: '#ff4880',
 };

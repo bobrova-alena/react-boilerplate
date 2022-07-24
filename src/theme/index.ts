@@ -4,6 +4,7 @@ import space from './space';
 import font from './font';
 import shadow from './shadow';
 import editorSizes from './editorSizes';
+import datetimeFormat from './datetime';
 
 export const theme = {
   colors,
@@ -11,5 +12,6 @@ export const theme = {
   space,
   font,
   shadow,
-  editorSizes
+  editorSizes,
+  datetimeFormat,
 };
